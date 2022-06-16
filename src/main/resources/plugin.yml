@@ -1,0 +1,9 @@
+name: MSlayer
+version: '${project.version}'
+main: me.khanh.plugins.mslayer.MSlayer
+api-version: 1.13
+depend:
+  - Quests
+  - MythicMobs
+authors: [ KhanhHuynh ]
+description: nothing
