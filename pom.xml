@@ -88,6 +88,10 @@
             <id>enginehub</id>
             <url>https://maven.enginehub.org/repo/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -110,9 +114,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>me.blackvein.quests</groupId>
-            <artifactId>quests-api</artifactId>
-            <version>4.4.3</version>
+            <groupId>com.github.PikaMug</groupId>
+            <artifactId>Quests</artifactId>
+            <version>4.4.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -130,6 +134,12 @@
             <groupId>com.sk89q</groupId>
             <artifactId>worldedit</artifactId>
             <version>6.0.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
